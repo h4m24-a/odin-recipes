@@ -1,0 +1,47 @@
+.custom-shape-divider-top-1673043626 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1673043626 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 146px;
+    m
+}
+
+.custom-shape-divider-top-1673043626 .shape-fill {
+    fill: #B8E986;
+}
+
+.header{
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+   
+    
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .chef {
+    width: 350px;
+    height: auto;
+    margin-top: 90px;
+  }
+  
+  .image {
+    flex-basis: 20%
+  }
+  
