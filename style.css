@@ -7,7 +7,7 @@
     font-weight: bold;
     border-width: 1px;
     border-style: solid;
-    margin: 30px 600px 0 600px;
+    margin: 90px 600px 0 600px;
 }
 
 
@@ -17,10 +17,10 @@
     margin-right: auto;
     width: 250px; 
     height: auto;
-    margin-top: 120px;
+    margin-top: 10px;
 }
 
-.custom-shape-divider-top-1673043626 {
+.custom-shape-divider-top-1673284764 {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,13 +29,17 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1673043626 svg {
+.custom-shape-divider-top-1673284764 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 146px;
+    height: 189px;
+    transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1673043626 .shape-fill {
+.custom-shape-divider-top-1673284764 .shape-fill {
     fill: #B8E986;
 }
+
+
+
