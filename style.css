@@ -59,8 +59,6 @@
 
 
 
-
-
 .imgtext{
     text-align: center;
     align-items: center;
@@ -75,3 +73,31 @@
 
 a { text-decoration: none; color:black}
 
+
+.mbpizza{
+    float: left;
+    display: block;
+    border-radius: 30%;
+    margin-left: 40px;
+    margin-top: 8%;
+
+  
+}
+
+article{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+    display: block;
+    padding-left: 30%;
+    line-height: 20px;
+    
+}
+
+
+.psub{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(239, 80, 80);
+    margin-top: 40px;
+}
