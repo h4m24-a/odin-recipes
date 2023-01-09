@@ -80,6 +80,8 @@ a { text-decoration: none; color:black}
     border-radius: 30%;
     margin-left: 40px;
     margin-top: 8%;
+    
+    
 
   
 }
@@ -101,3 +103,23 @@ article{
     color: rgb(239, 80, 80);
     margin-top: 40px;
 }
+
+
+.redstars{
+    position: relative;
+    top: -210px;
+    width: 7%;
+    margin-left: 10%;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.timer{
+    position: relative;
+    top: -200px;
+    width: 90px;
+    margin-left: 11%;
+    display: block; 
+}
+
+
