@@ -3,7 +3,7 @@
 .header{
     text-align: center;
     font-family: monospace;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: bold;
     border-width: 1px;
     border-style: solid;
@@ -15,7 +15,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px; 
+    width: 220px; 
     height: auto;
     margin-top: 10px;
 }
@@ -42,4 +42,36 @@
 }
 
 
+.rowflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+    
+    
+  }
+
+  .columnhome1{
+    margin-top: 30px;
+    border-radius: 20%;
+   
+}
+
+
+
+
+
+.imgtext{
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: rgb(85, 172, 248);
+    border-radius: 10%;
+    border-style: solid;
+    cursor: pointer;
+    
+}
+
+a { text-decoration: none; color:black}
 
