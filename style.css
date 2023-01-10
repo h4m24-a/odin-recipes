@@ -89,6 +89,7 @@ a { text-decoration: none; color:black}
     border-radius: 10%;
     margin-left: 40px;
     margin-top: 8%;
+    box-sizing: border-box;
 
 }
 
@@ -135,6 +136,7 @@ article{
     border-radius: 10%;
     margin-left: 40px;
     margin-top: 8%;
+    box-sizing: border-box;
 }
 
 .redstars1{
@@ -158,9 +160,10 @@ article{
 .lasag{
     float: left;
     display: block;
-    border-radius: 24%;
+    border-radius: 10%;
     margin-left: 40px;
     margin-top: 8%;
+    box-sizing: border-box;
 }
 
 .redstars2{
