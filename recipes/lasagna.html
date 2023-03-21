@@ -5,28 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Lasagna</title>
-</head>
-<body>
-    <div class="custom-shape-divider-top-1673284764">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-        </svg>
-    </div>
-
-    <h1>Lasagna</h1>
-
-    <img class="chef" src="../images/cheflogo.png" alt="A Chef">
-    <img class="lasag" src="../images/lasagna.jpeg" alt="Lasagna" width="350" height="auto">
-
-
-    <article>
-    <h2>Description</h2>
-    <p>A super speedy lasagne recipe ready in just 30 minutes. Perfect for mid week meals!</p>
-    
-
-    <h2>Ingredients</h2>
-    <ul>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <title>The Cuisine Restaurant - Lasagna</title>
+  </head>
+  <body> 
+   
+    <!-- Nav Bar section -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img src="/images/logos.png" alt="logo">
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            
+              <button class="btn" id="btn">
+                Recipe
+                <i class="bx bx-chevron-down" id="arrow"></i>
+              </button>
+            <div class="dropdown" id="dropdown">
+                <a href="/recipes/pizza.html">
+                  <i class="bx bxs-pizza"></i>
+                  Pizza
+                </a>
+                <a href="/recipes/lasagna.html">
+                  <i class="bx bxs-pie-chart-alt-2"></i>
+                  Lasagna
+                </a>
+                <a href="/recipes/pasta.html">
+                  <i class="bx bxs-bowl-hot"></i>
+                  Pasta
+                </a>
+              </div>
+ 
+          </li>
+        </ul>
+      </div>
+    </nav>
+ 
+    <!-- Recipe -->
+ 
+ <div class='recipe-card'>
+   <div style="background:url(https://media.istockphoto.com/id/1391369755/photo/italian-lasagna-with-meat-cheese-and-vegetables-italian-food.jpg?s=612x612&w=0&k=20&c=FDmZpXuC7gQ0iy04gcWQaQzBO4vAqfXWF2tl7zk4J7M=) no-repeat 50% 50%; background-size:cover; height: 150px"></div>
+   <div class="recipe-card__body">
+     <h1 class="recipe-card__heading">Lasagna</h1>
+     <h2 class="recipe-card__subhead"><p>A super speedy lasagne recipe ready in just 30 minutes. Perfect for mid week meals!</p></h2>
+     
+     <ul class="recipe-card__nav">
+       <li>
+         <h3 class="active">Ingredients</h3>
+       </li>
+       <li>
+         
+       </li>
+     </ul>
+     
+ 
+     <ul class="recipe-card__ingredients">
         <li>1 tsp olive oil</li>
         <li>1 chopped small onion</li>
         <li>1 crushed garlic clove</li>
@@ -39,13 +77,12 @@
         <li>8 dried lasagne sheets</li>
         <li>150ml creme fraiche</li>
         <li>75g grated cheese</li>
-        </ul>
-
-    <h2>Steps</h2>
-    <ol>
+   </ul>
+ 
+   <h3 class="active">Method</h3>
+     <ul  class="recipe-card__method">
         <li>Preheat the oven to 220c. </li>
-        <li>Heat the oil in a frying pan or large saucepan. Add the onion and fry for 2-3 minutes before adding the crushed garlic. 
-            Fry for another minute and then add the minced beef.</li>
+        <li>Heat the oil in a frying pan or large saucepan. Add the onion and fry for 2-3 minutes before adding the crushed garlic.</li>
         <li>Turn heat up high to brown the mince as quickly as possible. Stir regularly to ensure it doesn’t stick or burn.</li>
         <li>Once meat has browned add chopped tomatoes and stock cube.</li>
         <li>Add oregano and frozen vegetables along with water.</li>
@@ -54,11 +91,22 @@
         <li>Spread the creme fraiche and greated cheese over the top. </li>
         <li>Place lasagna in oven, reduce temperature to 200c and bake for 15 minutes.</li>
         <li>Serve immediately with green saled or mixed vegetables.</li>
-    </ol>
-    </article>
+     </ul>
+     </div>
+   
+ </div>
 
-    <img class="redstars2" src="../images/5star.png" alt="Five Stars">
-    <img class="timer2" src="../images/60minutesicon.png" alt="60 Minute Timer">
-        
+  <!-- Footer section -->
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <span class="footertext">Copyright &#169; The Cuisine Restaurant 2023</span>
+      </div>
+    </div>
+  </footer>
+    
+    
+    <script src="/nav.js"></script>
+    
 </body>
 </html>
