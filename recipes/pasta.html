@@ -5,29 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Chicken Vegetable Skillet Pasta</title>
-</head>
-<body>
-    <div class="custom-shape-divider-top-1673284764">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-        </svg>
-    </div>
-
-    <h1>Chicken Vegetable Skillet Pasta</h1>
-
-    <img class="chef" src="../images/cheflogo.png" alt="A Chef">
-    <img class="chipasta" src="../images/vegpasta.jpeg" alt="Chicken Vegetable Pasta" width="350" height="auto">
-
-
-    <article>
-    <h2>Description</h2>
-    <p>This Chicken Vegetable Skillet Pasta is super quick and easy to make. 
-        It uses simple ingredients for a meal the whole family will love!</p>
-
-    <h2>Ingredients</h2>
-    
-    <ul>
+    <title>The Cuisine Restaurant - Pasta</title>
+  </head>
+  <body> 
+   
+    <!-- Nav Bar section -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img src="/images/logos.png" alt="logo">
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            
+              <button class="btn" id="btn">
+                Recipe
+                <i class="bx bx-chevron-down" id="arrow"></i>
+              </button>
+            <div class="dropdown" id="dropdown">
+                <a href="/recipes/pizza.html">
+                  <i class="bx bxs-pizza"></i>
+                  Pizza
+                </a>
+                <a href="/recipes/lasagna.html">
+                  <i class="bx bxs-pie-chart-alt-2"></i>
+                  Lasagna
+                </a>
+                <a href="/recipes/pasta.html">
+                  <i class="bx bxs-bowl-hot"></i>
+                  Pasta
+                </a>
+              </div>
+ 
+          </li>
+        </ul>
+      </div>
+    </nav>
+ 
+    <!-- Recipe -->
+ 
+ <div class='recipe-card'>
+   <div style="background:url(https://media.istockphoto.com/id/1472015649/photo/italian-pasta-with-meatballs-tomato-sauce-and-spices-top-view-with-space-for-text.jpg?s=612x612&w=0&k=20&c=L5sWkcdGHZ-egVh7s1Utmm_vDvxiYDjy184_fCbkwXM=) no-repeat 50% 50%; background-size:cover; height: 150px"></div>
+   <div class="recipe-card__body">
+     <h1 class="recipe-card__heading">Chicken Pasta</h1>
+     <h2 class="recipe-card__subhead">This Chicken Vegetable Skillet Pasta is super quick and easy to make. 
+        It uses simple ingredients for a meal the whole family will love!</p></h2>
+     
+     <ul class="recipe-card__nav">
+       <li>
+         <h3 class="active">Ingredients</h3>
+       </li>
+       <li>
+         
+       </li>
+     </ul>
+     
+ 
+     <ul class="recipe-card__ingredients">
         <li>8 oz uncooked dried penne pasta</li>
         <li>3 tbsp olive oil divided</li>
         <li>1 lb boneless, skinless chicken cut</li>
@@ -39,27 +76,33 @@
         <li>2 tbsp balasmic vinegar</li>
         <li>1btsp lemon juice</li>
         <li>1 tbsp fresh or dried parsley</li>
-    </ul>
-
-    <h2>Steps</h2>
-
-    <ol>
-        <li>Cook penne according to the package directions. Once cooked, measure out ½ cup of the pasta water and set aside for later. 
-            Drain the pasta and set aside.</li>
-        <li>Meanwhile, in a large skillet, heat 2 tablespoons of olive oil over medium heat.</li>
-        <li>Add chicken to pan and cook for approximately 5 to 8 minutes, stirring occasionally. 
-            until juices run clear and chicken is no longer pink.</li>
-        <li>Add red, yellow, orange peppers and shallots to pan. Cook for 5 minutes, allowing peppers and shallots to brown on edges. 
-            Add garlic and cook for 1 minute longer. </li>
-        <li>Add balsamic vinegar, lemon juice, 1 tablespoon olive oil and ½ cup reserved pasta water and cooked penne pasta to pan. 
-            Cook for 4 minutes. </li>
+   </ul>
+ 
+   <h3 class="active">Method</h3>
+     <ul  class="recipe-card__method">
+        <li>Cook penne according to the package directions. Once cooked, measure out ½ cup of the pasta water and set aside for later.</li>
+        <li>Add chicken to pan and cook for approximately 5 to 8 minutes, stirring occasionally.</li>
+        <li>Add red, yellow, orange peppers and shallots to pan. Cook for 5 minutes.</li>
+        <li>Add garlic and cook for 1 minute longer.</li>
+        <li>Add balsamic vinegar, lemon juice, 1 tablespoon olive oil and ½ cup reserved pasta water and cooked penne pasta to pan.</li>
         <li>Transfer to a large serving bowl or platter.</li>
         <li>Sprinkle with fresh or dried parsley. </li>
-    </ol>
-    </article>
+     </ul>
+     </div>
+   
+ </div>
 
-    <img class="redstars1" src="../images/5star.png" alt="Five Stars">
-    <img class="timer1" src="../images/20minutesicon.png" alt="20 Minute Timer">
+ <!-- Footer section -->
+ <footer class="footer">
+    <div class="container">
+      <div>
+        <span class="footertext">Copyright &#169; The Cuisine Restaurant 2023</span>
+      </div>
+    </div>
+  </footer>
+    
+    
+    <script src="/nav.js"></script>
     
 </body>
 </html>
