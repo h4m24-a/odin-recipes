@@ -1,5 +1,6 @@
 # odin-recipes
 Odin Project : Recipes
-<br>
-<br>
-A basic recipe website, using HTML and CSS!
+
+## You can view the project at: https://h4m24-a.github.io/odin-recipes/
+
+A basic recipe website, using HTML, CSS and JavaScript!
